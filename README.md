@@ -14,6 +14,7 @@ An immersive D&D companion app where ChatGPT acts as your Dungeon Master, bringi
 - 🎲 **Dice Roller** - Server-side dice rolls with beautiful animations
 - ⚔️ **Combat System** - Initiative tracking, turn-based combat, status effects
 - 🔊 **Text-to-Speech** - AI narration comes alive with voice
+- 🎨 **AI Image Generation** - Character portraits, scene images, enemy visuals (DALL-E 3 + Stable Diffusion)
 - 💾 **Session Management** - Save/load campaigns, session history
 - 📱 **Mobile Responsive** - Play on any device
 
@@ -44,6 +45,7 @@ This app is specifically designed around your epic campaign featuring:
 | **[PLAN.md](./PLAN.md)** | Complete project plan, architecture, features, and development phases |
 | **[TECH_STACK_COMPARISON.md](./TECH_STACK_COMPARISON.md)** | Technology choices, cost analysis, and recommendations |
 | **[CHARACTER_DATA_EXAMPLES.md](./CHARACTER_DATA_EXAMPLES.md)** | Real data structures from your ChatGPT session |
+| **[IMAGE_GENERATION_PLAN.md](./IMAGE_GENERATION_PLAN.md)** | 🎨 AI image generation guide (characters, scenes, enemies) |
 | **[QUICK_START.md](./QUICK_START.md)** | Step-by-step guide to start building |
 
 ---
