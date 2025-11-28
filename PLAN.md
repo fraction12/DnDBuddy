@@ -50,6 +50,16 @@ Each character needs:
 - Campaign continuity
 - Session history and recap
 
+### 6. **Image Generation** 🎨 NEW
+- **Character portraits** - AI-generated visuals for each character
+- **Scene setting** - Images for locations (Brightwick, barn, cellar, etc.)
+- **Enemy encounters** - Visual representation of goblins, werewolves, dragons
+- **Epic moments** - Critical hits, dramatic scenes
+- **Items & loot** - Visual cards for weapons and magical items
+- **Cost**: ~$0.70-1.00 per 5-hour campaign (using mix of DALL-E 3 + Stable Diffusion XL)
+
+See [IMAGE_GENERATION_PLAN.md](./IMAGE_GENERATION_PLAN.md) for complete details.
+
 ---
 
 ## 🏗️ System Architecture
@@ -80,6 +90,8 @@ Each character needs:
 - **AI Integration**:
   - **OpenAI API** (ChatGPT-4 or GPT-4-turbo)
   - **Vercel AI SDK** - Streaming responses
+  - **DALL-E 3** - Character portraits & key scenes
+  - **Stable Diffusion XL** - Scene images & enemies (cost-effective)
 
 #### **Deployment**
 - **Platform**: Vercel
